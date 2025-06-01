@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Imagenes/1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 5% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: sticky;
+}
+.nav-links ul li a{
+    color:cadetblue;
+    font-size: 14px;
+}
+
+.prueba{   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px
+}
+
+.prueba ul {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 12px;
+}
+.prueba li {
+    padding: 15px;
+}
+.prueba a{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Cabezal{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    background-color:rgba(25, 123, 202, 0.04);
+    padding: 20px 15px;
+    flex-direction: column;
+    font-size: 35px;    
+} 
+ul{
+    list-style: none;
+}
+.parrafo{
+    display: flex;
+    color: white;
+    padding: 2px 2px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 45px;
+    
+}
+.title_parrafo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 12px;
+    margin-right: 100px;
+    color: aqua;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Mangas{
+    background-color: rgb(71, 182, 255);
+    color: rgb(140, 0, 255);
+    border:none;
+    border-radius: 150px;
+    padding: 9px;
+    transition: opacity, 0.2s;
+    cursor: pointer;
+    margin: 2px;
+    transition: padding, 0.15s;
+    margin-right: 50px;
+}
+.Mangas a,.Bolsas a,.Whatsapp a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.Mangas:hover{
+    opacity: 0.4;
+    padding: 12px;
+    box-shadow: 8px 8px 3px rgba(25, 123, 202, 0.8);
+}
+.Mangas:active{
+    padding: 15px;
+    box-shadow: 0px 0px 3px rgba(25, 123, 202, 0.8);
+    opacity: 1;
+}
+.Bolsas{
+    background-color: rgb(71, 182, 255);
+    color: rgb(140, 0, 255);
+    border:none;
+    border-radius: 150px;
+    padding: 9px;
+    transition: opacity, 0.2s;
+    cursor: pointer;
+    margin: 2px;
+    transition: padding, 0.15s;
+    margin-right: 50px;
+
+}
+.Bolsas:hover{
+    opacity: 0.4;
+    padding: 12px;
+    box-shadow: 8px 8px 3px rgba(25, 123, 202, 0.8);
+}
+.Bolsas:active{
+    padding: 15px;
+    box-shadow: 0px 0px 3px rgba(25, 123, 202, 0.8);
+    opacity: 1;
+}
+.Whatsapp{
+    background-color: #21C063;
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 150px;
+    padding: 9px;
+    transition: opacity, 0.2s;
+    cursor: pointer;
+    margin: 2px;
+    transition: padding, 0.15s;
+    
+
+}
+.Whatsapp:hover{
+    opacity: 0.4;
+    padding: 12px;
+    box-shadow: 8px 8px 2.5px #21C063;
+}
+.Whatsapp:active{
+    padding: 15px;
+    box-shadow: 0px 0px 3px #21C063;
+    opacity: 1;
+}
+.Bolsas,.Whatsapp,.Mangas{
+ padding: 14px;
+ margin-top: 100px;   
+}
+.botones_3{
+    background-color: rgba(10, 111, 199, 0.055);
+    display: inline-block;
+    
+}
